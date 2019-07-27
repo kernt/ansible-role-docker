@@ -68,6 +68,13 @@ Many users of this role wish to also use Ansible to then _build_ Docker images a
     - geerlingguy.docker
 ```
 
+## Bash completion
+
+Set the var `enable_docker_bash_completion` to true
+ 
+ enable_docker_bash_completion: "true"
+
+
 ## Dependencies
 
 None.
