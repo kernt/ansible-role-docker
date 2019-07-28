@@ -1,0 +1,7 @@
+---
+
+- name: Downloading Docker Bash Completion
+  get_url: 
+    url: https://raw.githubusercontent.com/docker/docker-ce/master/components/cli/contrib/completion/bash/docker
+    dest: /etc/bash_completion.d/docker.sh
+    checksum: md5:8fa192ec2491fe4dd9037dfdb7fb26a3
